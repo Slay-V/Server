@@ -49,7 +49,7 @@ namespace GVRP.Module.Players.Events.EasterEvent
                     if (dbPlayer.Container.CanInventoryItemAdded(EasterEggId))
                     {
                         dbPlayer.Container.AddItem(EasterEggId);
-                        dbPlayer.SendNewNotification($"Du hast ein {ItemModelModule.Instance.Get(EasterEggId).Name} bekommen! Frohe Ostern wünscht Venom Roleplay.");
+                        dbPlayer.SendNewNotification($"Du hast ein {ItemModelModule.Instance.Get(EasterEggId).Name} bekommen! Frohe Ostern wünscht DLRP Roleplay.");
                         dbPlayer.ChangeEventState(EventStateModule.EventListIds.EASTER, 1);
                         easterRabbit.LastUsed = DateTime.Now;
                     }

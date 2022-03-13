@@ -38,7 +38,7 @@ namespace GVRP
                 str2 = Content.General.GetDonorName(iPlayer.donator[0]);
             }
 
-            menu.Add("Venom: ~b~" + str2, "");
+            menu.Add("DLRP: ~b~" + str2, "");
 
             menu.Add("Bargeld: ~g~" + iPlayer.money[0] + "$", "");
             menu.Add("Wanteds: ~r~" + iPlayer.wanteds[0] + "/59", "");

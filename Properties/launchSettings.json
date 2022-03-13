@@ -2,8 +2,8 @@
   "profiles": {
     "Venom": {
       "commandName": "Executable",
-      "executablePath": "../server-files/ragemp-server.exe",
-      "workingDirectory": "../server-files/",
+      "executablePath": "C:\\Users\\Administrator\\Desktop\\SlayV\\ragemp-server.exe",
+      "workingDirectory": "C:\\Users\\quixi\\Desktop\\DLRP GVMP",
       "remoteDebugEnabled": false
     }
   }

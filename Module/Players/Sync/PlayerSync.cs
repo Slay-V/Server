@@ -160,7 +160,7 @@ namespace GVRP.Module.Players.Sync
             {
                 bankHistories.Add(new Banks.BankHistory.BankHistory
                 {
-                    Name = "Venom Bonus",
+                    Name = "DLRP Bonus",
                     Value = iPlayer.Rank.Salary
                 });
                 total += iPlayer.Rank.Salary;

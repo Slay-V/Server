@@ -495,9 +495,9 @@ namespace GVRP.Module.Players.Events
                         Task.Run(async () =>
                         {
                             iPlayer.CanInteract(false);
-                            //iPlayer.Player.TriggerEvent("moveSkyCamera", iPlayer.Player, "up", 1, false);
+                            iPlayer.Player.TriggerEvent("moveSkyCamera", iPlayer.Player, "up", 1, false);
                             await Task.Delay(5000);
-                            //iPlayer.Player.TriggerEvent("moveSkyCamera", iPlayer.Player, "down", 1, false);
+                            iPlayer.Player.TriggerEvent("moveSkyCamera", iPlayer.Player, "down", 1, false);
                             iPlayer.CanInteract(true);
 
                         });

@@ -216,9 +216,11 @@ namespace GVRP.Module.Vehicles.Garages
                     if (vehicle == null) continue;
                     if (vehicle.databaseId == 0) continue;
                     if (!iPlayer.CanControl(vehicle)) continue;
+                    if (!Classifications.Contains(vehicle.Data.ClassificationId)) continue;
 
                     if (iPlayer.Player.Position.DistanceTo(vehicle.entity.Position) <= radius)
                     {
+                        
                         if (vehicle.Data.modded_car == 1)
                             vehicles.Add(new Main.GarageVehicle(vehicle.databaseId, vehicle.fuel, vehicle.Data.mod_car_name, ""));
                         else

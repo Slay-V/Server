@@ -75,7 +75,7 @@ namespace GVRP.Module.Tasks
                         dbPlayer.SendNewNotification("Die aktuelle Defcon Stufe für dieses Fahrzeug ist nicht erreicht!");
                         continue;
                     }
-
+                    
                     if (data.modded_car == 1)
                         vehList.Add(new Main.GarageVehicle(vehicleId, fuel, data.mod_car_name, garage.IsTeamGarage() ? "" : reader.GetString("note")));
                     else

@@ -56,6 +56,7 @@ namespace GVRP.Module.Vehicles.Garages
 
                         if (garage.Classifications.Contains(sxVehicle.Data.ClassificationId))
                         {
+                            
                             if (sxVehicle.entity.Position.DistanceTo(garage.Position) < 100.0f)
                             {
                                 //einparken

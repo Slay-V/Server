@@ -13,17 +13,18 @@ namespace GVRP
         }
 
         public override Menu Build(DbPlayer iPlayer)
-        {
-            var menu = new Menu(Menu, "Animation Menu");
-            menu.Add("Schließen", "");
-            menu.Add("Animation beenden", "");
-            foreach (KeyValuePair<uint, AnimationCategory> kvp in AnimationCategoryModule.Instance.GetAll())
             {
-                if (kvp.Value == null) continue;
-                menu.Add($"{kvp.Value.Name}", "");
+            var menu = new Menu(Menu, "Animation Menu");
+            if (iPlayer.IsInAdminDuty()) return menu;
+                menu.Add("Schließen", "");
+                menu.Add("Animation beenden", "");
+                foreach (KeyValuePair<uint, AnimationCategory> kvp in AnimationCategoryModule.Instance.GetAll())
+                {
+                    if (kvp.Value == null) continue;
+                    menu.Add($"{kvp.Value.Name}", "");
+                }
+                return menu;
             }
-            return menu;
-        }
 
         public override IMenuEventHandler GetEventHandler()
         {

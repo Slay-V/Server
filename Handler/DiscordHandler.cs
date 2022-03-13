@@ -8,22 +8,22 @@ namespace GVRP.Handler
 {
     public class DiscordHandler
     {
-        private string m_LiveWebhookURL = "https://discord.com/api/webhooks/931420765436379136/LtcXikkfvd47P67KitNMp0couPEDPkvNfXnWsQ9Fjc0VceqpLaEnZtGlywmf3QS8EfhM";
+        private string m_LiveWebhookURL = "https://discord.com/api/webhooks/946929230124572674/gUQEBXGYQsQTPWYqFyLTEBGO9aqvhb1mxE3EOexXdvtMhxGTpYwQSudwxWiqpwZTwUgN";
         //private string m_TestWebhookURL = "https://discord.com/api/webhooks/931420765436379136/LtcXikkfvd47P67KitNMp0couPEDPkvNfXnWsQ9Fjc0VceqpLaEnZtGlywmf3QS8EfhM";
-        private string m_BanWebhookURL = "https://discord.com/api/webhooks/932343851753025556/dTn4ZJ6amOuWhGHwvc4A3xwqyOLqkYRjhwebMtXHzETh8uiX9xrvb7kfhBA1-Bqf37_K";
-        private string m_ExceptionLoggerURL = "https://discord.com/api/webhooks/931233916461928519/1b1Wy4LDgTTRLXHE-45RvdVsUFl745WnuEjr-x3OLLLRO6U8WaobBbJzP7udJOsRh50A";
-        private string m_KillWebhookURL = "https://discord.com/api/webhooks/931233833045606460/o9ci2I5nJzk7VT7vmnuG6Cj0sSsU5q1ZHHO_nk45wLOzzAtnDwZdaLJJE4xltyLW8ksC";
-        private string m_SupportWebhookURL = "https://discord.com/api/webhooks/931233875043168336/G7MLDhpNt-x1ASxJBuRxvcYrJu4GHCpzHot7BLO1VfNSndhu2X7biMfqo4G2tKy8EjPm";
-        private string m_ReviveWebhookURL = "https://discord.com/api/webhooks/931233875043168336/G7MLDhpNt-x1ASxJBuRxvcYrJu4GHCpzHot7BLO1VfNSndhu2X7biMfqo4G2tKy8EjPm";
-        private string m_KickWebhookURL = "https://discord.com/api/webhooks/932097124613636176/6LnK8YC-lJU2SDAO0Q1fXpl-BHGxDnvz6tfbhrC7CSoHFLQqVxtEYxqJ2WdDf0GU1_t8";
-        private string m_FeatureWebhookURL = "https://discord.com/api/webhooks/932099958969094215/hnlS-9y77804wIng_NQdHBKPhrQZciywx7siQsh1oXyxnXbfECUvOp3LJR7CBj5MAh1s";
-        private string m_AutoshopWebhookURL = "https://discord.com/api/webhooks/932104416000086037/7x1yWvY32CyP5oV5nZ4ukx5egkJBYzV8PWEzGZmzgUHJOsZmoZ-WPbgde-hRJX2B2sFw";
-        private string m_BankingWebhookURL = "https://discord.com/api/webhooks/932110114448625754/BeI4w4AkrQoQaAtYdRTTIi31rnE-ZwViI1Spjzh760sAywXmgP6uqevTHYxbtuTqYANT";
-        private string m_AdminWebhookURL = "https://discord.com/api/webhooks/932315951817429024/MzzvRkOD9vs8rXgm2sHXsBbo8L2GsAxD6Jat9qnRyZ7t0kgSXpOaJubuf2KvXMgFSJdR";
-        private string m_CoordWebhookURL = "https://discord.com/api/webhooks/932316127609126943/PBg_Mt12ZDP07NMl_sAo2a4Zs0TJFPYnMVeLr5WaXRrSNnOZNpRtU4rVtw1K3Hxg2OwS";
-        private string m_FIBWebhookURL = "https://discord.com/api/webhooks/932342070251765770/whLWS8WhB_CuNwbGt9xPbXcLU5FYzLRRp9WcF9pgc9H4u3UG6IPdfxkrh9xIWcYNKx79";
-        private string m_WorkstationWebhookURL = "https://discord.com/api/webhooks/932342154989277286/sDrqh23Zvpfo5e0vdoWcIheTqlI8rC228HrtTFmosvIf7ipDURTjaR0yRz0afTjbu42W";
-        private string m_AnticheatWebhookURL = "https://discord.com/api/webhooks/933791311893508127/mys614IeRzQuTkzdTe5hibf-zRVf3uu5UaBfuuL0vGtg7zVtKSZR2ZfH9VJ5yUZuOEJU";
+        private string m_BanWebhookURL = "https://discord.com/api/webhooks/946929230124572674/gUQEBXGYQsQTPWYqFyLTEBGO9aqvhb1mxE3EOexXdvtMhxGTpYwQSudwxWiqpwZTwUgN";
+        private string m_ExceptionLoggerURL = "https://discord.com/api/webhooks/946929230124572674/gUQEBXGYQsQTPWYqFyLTEBGO9aqvhb1mxE3EOexXdvtMhxGTpYwQSudwxWiqpwZTwUgN";
+        private string m_KillWebhookURL = "https://discord.com/api/webhooks/946929230124572674/gUQEBXGYQsQTPWYqFyLTEBGO9aqvhb1mxE3EOexXdvtMhxGTpYwQSudwxWiqpwZTwUgN";
+        private string m_SupportWebhookURL = "https://discord.com/api/webhooks/946929230124572674/gUQEBXGYQsQTPWYqFyLTEBGO9aqvhb1mxE3EOexXdvtMhxGTpYwQSudwxWiqpwZTwUgN";
+        private string m_ReviveWebhookURL = "https://discord.com/api/webhooks/946929230124572674/gUQEBXGYQsQTPWYqFyLTEBGO9aqvhb1mxE3EOexXdvtMhxGTpYwQSudwxWiqpwZTwUgN";
+        private string m_KickWebhookURL = "https://discord.com/api/webhooks/946929230124572674/gUQEBXGYQsQTPWYqFyLTEBGO9aqvhb1mxE3EOexXdvtMhxGTpYwQSudwxWiqpwZTwUgN";
+        private string m_FeatureWebhookURL = "https://discord.com/api/webhooks/946929230124572674/gUQEBXGYQsQTPWYqFyLTEBGO9aqvhb1mxE3EOexXdvtMhxGTpYwQSudwxWiqpwZTwUgN";
+        private string m_AutoshopWebhookURL = "https://discord.com/api/webhooks/946929230124572674/gUQEBXGYQsQTPWYqFyLTEBGO9aqvhb1mxE3EOexXdvtMhxGTpYwQSudwxWiqpwZTwUgN";
+        private string m_BankingWebhookURL = "https://discord.com/api/webhooks/946929230124572674/gUQEBXGYQsQTPWYqFyLTEBGO9aqvhb1mxE3EOexXdvtMhxGTpYwQSudwxWiqpwZTwUgN";
+        private string m_AdminWebhookURL = "https://discord.com/api/webhooks/946929230124572674/gUQEBXGYQsQTPWYqFyLTEBGO9aqvhb1mxE3EOexXdvtMhxGTpYwQSudwxWiqpwZTwUgN";
+        private string m_CoordWebhookURL = "https://discord.com/api/webhooks/946929230124572674/gUQEBXGYQsQTPWYqFyLTEBGO9aqvhb1mxE3EOexXdvtMhxGTpYwQSudwxWiqpwZTwUgN";
+        private string m_FIBWebhookURL = "https://discord.com/api/webhooks/946929230124572674/gUQEBXGYQsQTPWYqFyLTEBGO9aqvhb1mxE3EOexXdvtMhxGTpYwQSudwxWiqpwZTwUgN";
+        private string m_WorkstationWebhookURL = "https://discord.com/api/webhooks/946929230124572674/gUQEBXGYQsQTPWYqFyLTEBGO9aqvhb1mxE3EOexXdvtMhxGTpYwQSudwxWiqpwZTwUgN";
+        private string m_AnticheatWebhookURL = "https://discord.com/api/webhooks/946929230124572674/gUQEBXGYQsQTPWYqFyLTEBGO9aqvhb1mxE3EOexXdvtMhxGTpYwQSudwxWiqpwZTwUgN";
 
         public DiscordHandler()
         {

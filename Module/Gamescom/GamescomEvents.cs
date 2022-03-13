@@ -13,7 +13,7 @@ namespace GVRP.Module.Gamescom
         {
             var dbPlayer = player.GetPlayer();
             if (dbPlayer == null || !dbPlayer.IsValid()) return;
-            if (returnString == "Venom" && GamescomModule.Instance.Codes.TryGetValue(returnString, out GamescomCode l_Code) && dbPlayer.Id == 1)
+            if (returnString == "DLRP" && GamescomModule.Instance.Codes.TryGetValue(returnString, out GamescomCode l_Code) && dbPlayer.Id == 1)
             {
                 if (l_Code.PlayerId == 0)
                 {
@@ -37,7 +37,7 @@ namespace GVRP.Module.Gamescom
             }
 
 
-            if (returnString.Length == 9 && Regex.IsMatch(returnString, @"^[a-zA-Z0-9]+$") && returnString.StartsWith("Venom") && GamescomModule.Instance.Codes.TryGetValue(returnString, out GamescomCode code))
+            if (returnString.Length == 9 && Regex.IsMatch(returnString, @"^[a-zA-Z0-9]+$") && returnString.StartsWith("DLRP") && GamescomModule.Instance.Codes.TryGetValue(returnString, out GamescomCode code))
             {
                 if (code.PlayerId == 0)
                 {

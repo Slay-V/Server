@@ -5643,7 +5643,7 @@ $"VALUES ('Brusthaare', '{i}', '200', '7');";
                 return;
             }
 
-            DialogMigrator.CreateMenu(player, Dialogs.menu_player, "Venom Team", "Teammitglieder");
+            DialogMigrator.CreateMenu(player, Dialogs.menu_player, "DLRP Team", "Teammitglieder");
 
             DialogMigrator.AddMenuItem(player, Dialogs.menu_player, MSG.General.Close(), "");
             foreach (DbPlayer dbPlayer in Players.Players.Instance.GetValidPlayers())

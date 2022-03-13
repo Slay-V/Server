@@ -15,7 +15,7 @@
     <EnableNETAnalyzers>true</EnableNETAnalyzers>
     <Platforms>x64</Platforms>
     <Configurations>Debug;Release</Configurations>
-    <OutputPath>..\server-files\dotnet\resources\VMP_CNR</OutputPath>
+    <OutputPath>C:\Users\Administrator\Desktop\SlayV\dotnet\resources\VMP_CNR\</OutputPath>
     <DebugType>full</DebugType>
     <AppendTargetFrameworkToOutputPath>false</AppendTargetFrameworkToOutputPath>
     <ProduceReferenceAssembly>False</ProduceReferenceAssembly>

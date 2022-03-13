@@ -75,7 +75,7 @@ namespace GVRP.Module.Einreiseamt
                         foundPlayer.hasPerso[0] = 1;
                         foundPlayer.Save();
 
-                        foundPlayer.SendNewNotification("Ihnen wurde die Einreise gestattet! Viel Spaß auf Venom!");
+                        foundPlayer.SendNewNotification("Ihnen wurde die Einreise gestattet! Viel Spaß auf DLRP!");
                         iPlayer.SendNewNotification($"Sie haben {foundPlayer.GetName()} die Einreise gestattet!");
                         MenuManager.DismissCurrent(iPlayer);
 

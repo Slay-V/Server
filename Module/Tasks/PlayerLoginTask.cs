@@ -64,7 +64,7 @@ namespace GVRP.Module.Tasks
 
                             PlayerLoginDataValidationModule.SyncUserBanToForum(reader.GetInt32("forumid"));
 
-                            player.SendNotification($"Dein Venom (IC-)Account wurde gesperrt. Melde dich im Teamspeak!");
+                            player.SendNotification($"Dein DLRP (IC-)Account wurde gesperrt. Melde dich im Teamspeak!");
                             player.Kick();
                             return;
                         }
